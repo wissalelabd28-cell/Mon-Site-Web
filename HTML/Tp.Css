@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+option{
+   display: flex;
+}
+button{
+    gap: 30px;
+}
+input{
+    justify-content: center;
+    gap: 40px;
+}

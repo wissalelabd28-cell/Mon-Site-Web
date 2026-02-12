@@ -1,0 +1,33 @@
+/* img{
+    width: 500px;  
+    height: auto;
+}
+h1{
+    display: flex;
+   justify-content: space-around;
+}
+button{
+    background-color: green;
+    color: aliceblue;
+}
+input{
+    border-color: green;
+    width: 300px;
+    text-align: center;
+    
+}
+label{
+    justify-content: center;
+} */
+
+table{
+    font-size: 50px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+table:hover{
+     border: 2px solid rgb(255, 69, 252);
+    border-radius: 20px;
+    
+}

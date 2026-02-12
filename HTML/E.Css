@@ -1,0 +1,91 @@
+img{
+    width: 90px;
+    height: 90px;
+}
+header{
+    display: flex;
+    text-decoration:sans-serif;
+    color: blue;
+    font-family: sans-serif;
+}
+nav {
+    color: rgb(221,221,221);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 10px;
+}
+nav a{
+    color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 60px;
+}
+nav a:hover{
+    color: rgb(221,221,221);
+    color: rgb(104, 24,231);
+    margin: 100px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: rgb(223, 223, 223);
+}
+.contnaire{
+    display: flex;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    gap: 60px;
+    justify-content: space-around;
+}
+.button a{
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 50px;
+ 
+}
+.m1:hover{
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: rgb(223, 223, 223);
+}
+.m2:hover{
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: rgb(223, 223, 223);
+}
+.m3:hover{
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: rgb(223, 223, 223);
+}
+.button:hover{
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: rgb(223, 223, 223);
+}
+@media (max-width: 700px) {
+    .contnaire{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+body{
+    background: linear-gradient(to right, #97abbc, #00f2fe);
+}
+footer{
+    background-color: black;
+    text-align: right;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: beige;
+    margin-right: 15px;
+}
+footer a{
+    text-decoration: none;
+    color: beige;
+    margin-right: 15px;
+}

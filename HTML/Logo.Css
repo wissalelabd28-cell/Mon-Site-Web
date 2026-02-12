@@ -1,0 +1,54 @@
+body{
+    background-image: url(../PHOTOS/ligne-fumee-est-montree-fond-noir_994023-343637.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    color: rgb(35, 29, 105);
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: rgb(133, 122, 181);
+} 
+.m1{
+color: rgb(255, 246, 246);
+display: flex;
+gap: 150px;
+
+}
+.m2{
+    color: rgb(0, 0, 0);
+    list-style: armenian;
+    
+    gap: 50px;
+    margin: 50px;
+}
+h1{
+    color: rgb(230, 233, 236);
+    list-style: circle;
+     text-align: center;
+}
+h2{
+    color: rgb(255, 255, 255);
+   display: flex;
+    width: 40%;
+}
+button{
+background-color:rgb(205, 121, 185);
+color: rgb(0, 0, 0);
+border-radius: 10px;
+}
+h4{
+    argin: 10px;
+   color:  rgb(205, 121, 185);
+}
+input{
+   margin: 20px;
+   border: 80px;
+   background-color: rgb(255, 255, 255);
+}
+label{
+    color: rgb(250, 251, 253);
+    margin: 30px;
+    list-style: decimal;
+}

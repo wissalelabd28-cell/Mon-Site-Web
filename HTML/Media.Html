@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+
+    <!-- Lien vers CSS -->
+    <link rel="stylesheet" href="Media.Css">
+</head>
+<body>
+
+    <form>
+
+        <!-- Nom -->
+        <label>Nom :</label>
+        <input type="text" placeholder="Entrez votre nom">
+
+        <!-- Prénom -->
+        <label>Prénom :</label>
+        <input type="text" placeholder="Entrez votre prénom">
+
+        <!-- Pièce d'identité -->
+        <label>Pièce d'identité :</label>
+        <select>
+            <option>CNIE</option>
+            <option>Passeport</option>
+            <option>Carte de séjour</option>
+        </select>
+
+        <!-- Radios -->
+        <div class="radios">
+            <label>
+                <input type="radio" name="inscription"> Étudiant
+            </label>
+
+            <label>
+                <input type="radio" name="inscription"> Employé
+            </label>
+        </div>
+
+        <!-- Checkbox -->
+        <label>
+            <input type="checkbox"> J'accepte les conditions
+        </label>
+
+        <br><br>
+
+        <!-- Boutons -->
+        <button type="submit" class="valider">Valider</button>
+        <button type="reset" class="annuler">Annuler</button>
+
+    </form>
+
+</body>
+</html>
